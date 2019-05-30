@@ -1,5 +1,7 @@
 body{
     background-color: beige;
+    
+    
 }
 h1{
     text-align: center;
@@ -9,23 +11,28 @@ h1{
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
+.header-title{
+    background-color: floralwhite;
+    margin-right: 100px;
+    margin-left: 150px;
+}
 figure {
     float: left; 
     margin: 50px;
-    margin-right: 110px;
+    margin-left: 200px;
+ 
   }
   
   section {
-    width: 91%;
-  
-    margin: 15px auto;
+    width: 89%;
+    margin: 25px;
   }
   
   figure img {
-    padding: 4px;
-    
-    border-radius: 20px;
+    padding: 11px;
+    border-radius: 15px;
     -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s; 
+    text-align: center;
   }
   figure img:hover {
     -webkit-transform: scale(1.2);
@@ -34,24 +41,26 @@ figure {
   footer {
     clear: both;
     margin-right: 10px;
+    background: floralwhite;
   }
   
-  .header-title {
-    margin-left: 50px;
-    color: #666;
-  }
   .contact{
       text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      bottom: 10px;
   }
 .Send {
     
         font-family: 'Helvetica', 'Arial', sans-serif;
         display: inline-block;
-        font-size: 1em;
+        font-size: 10px;
         padding: 1em 2em;
         margin-top: 100px;
         margin-bottom: 60px;
         -webkit-appearance: none;
-        appearance: none;
+        background: floralwhite;
         
+}
+h4{
+    text-align: center;
 }
